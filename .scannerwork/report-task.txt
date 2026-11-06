@@ -1,0 +1,6 @@
+projectKey=real-estate-company
+serverUrl=http://localhost:9000
+serverVersion=26.9.0.129388
+dashboardUrl=http://localhost:9000/dashboard?id=real-estate-company
+ceTaskId=b6d56573-4abe-4948-9c7b-d872a5e318e9
+ceTaskUrl=http://localhost:9000/api/ce/task?id=b6d56573-4abe-4948-9c7b-d872a5e318e9
