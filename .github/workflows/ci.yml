@@ -12,7 +12,7 @@ permissions:
 env:
   AWS_REGION: us-east-1
   ECR_REGISTRY: 992734380025.dkr.ecr.us-east-1.amazonaws.com
-  ROLE_ARN: arn:aws:iam::992734380025:role/GitHubActions-RealEstate-ECR-Push
+  AWS_ROLE_ARN: arn:aws:iam::992734380025:role/GitHubActions-RealEstate-ECR-Push
 
 jobs:
   build-and-push:
