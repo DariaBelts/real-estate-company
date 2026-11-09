@@ -4,14 +4,14 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [main, first-feature]
+    branches: [main, feature-estate]
   workflow_dispatch:
 
 permissions:
   contents: read
 
 env:
-  AWS_REGION: us-east-2
+  AWS_REGION: us-east-1
   ECR_FRONTEND: real-estate-company-frontend
   ECR_BACKEND: real-estate-company-backend
 
