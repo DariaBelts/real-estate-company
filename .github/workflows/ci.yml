@@ -124,7 +124,7 @@ jobs:
       - security
 
     # Only publish after code reaches main.
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feature-estate')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     permissions:
       contents: read
